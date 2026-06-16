@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EnduroPrint" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- Tema transparente para PrintActivity (no tiene UI) -->
+    <style name="Theme.EnduroPrint.Transparent" parent="Theme.EnduroPrint">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
