@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Fondo azul -->
+    <path
+        android:fillColor="#1A56DB"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Cuerpo de la impresora -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,42h52v10H28z" />
+
+    <!-- Parte superior (papel entrando) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,30h36v14H36z" />
+
+    <!-- Cuerpo principal -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,50h60v24H24z" />
+
+    <!-- Papel saliendo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,72h40v18H34z" />
+
+    <!-- Líneas del papel (azul sobre blanco) -->
+    <path
+        android:fillColor="#1A56DB"
+        android:pathData="M38,78h32v2H38z" />
+    <path
+        android:fillColor="#1A56DB"
+        android:pathData="M38,83h24v2H38z" />
+
+    <!-- Luz indicadora (círculo dibujado con path) -->
+    <path
+        android:fillColor="#1A56DB"
+        android:pathData="M70,62 m-4,0 a4,4,0,1,0,8,0 a4,4,0,1,0,-8,0z" />
+
+</vector>
